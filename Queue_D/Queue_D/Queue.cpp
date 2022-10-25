@@ -109,6 +109,6 @@ Queue& Queue::operator=(const Queue& qu) {
 				buffer[i] = qu.buffer[i];
 			buffer[end] = qu.buffer[end];
 		}
-		return *this;
 	}
+	return *this;
 }
