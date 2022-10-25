@@ -4,7 +4,6 @@ class Queue {
 	int* buffer = new int[size];
 
 public:
-	//Оператор 
 	Queue() = default;
 	Queue(const Queue& qu);
 	~Queue();
